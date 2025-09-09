@@ -3,7 +3,7 @@
 </h1>
 
 ## Problem
-By playing CSGO and now CS2, I got used to changing my handedness mid round in order to better hold angles. In CS2 there's a keybind for this, however in Valorant the only way to change handedness is by manually going through the settings everytime you want to do it. I wanted to automate this process to be as fast as I could, while also not breaking the TOS and without getting banned.
+By playing CSGO and now CS2, I got used to changing my handedness mid round in order to better hold angles. In CS2 there's a keybind for this, however in Valorant the only way to change handedness is by manually going through the settings everytime you want to do it. I wanted to automate this process to be as fast as I could, while also not breaking the TOS and without getting banned. [Demo](https://github.com/mortinso/valorant_handedness/#final-thoughts)
 
 ## Limitations by Riot
 - Riot Vanguard (Riots anti-cheat) would likely be able to detect a DLL injection
@@ -24,6 +24,11 @@ Since Riot Vanguard is so restrictive (and I didn't wanna get banned) what I cou
 ### Requirements
 - python
 - Windows
+
+### Keybinds
+Keybinds can be changed but the default are:
+- `H` - Change handedness
+- `L` - Quit the program
 
 ### Stuff I tried but didn't work
 - Using Windows Mouse Keys to bind left click to numpad5. Riot ignores Windows Mouse Keys.
