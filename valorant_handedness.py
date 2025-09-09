@@ -14,10 +14,10 @@ def changeHand():
 		mouse.move(1324, 950, True)
 	sleep(0.3)
 	keyboard.press_and_release('esc')
+	hand = (hand + 1) % 2
 
 while (True):
 	if keyboard.is_pressed('h'):
 		changeHand()
-		hand = (hand + 1) % 2
 	if keyboard.is_pressed('l'):
 		quit()
