@@ -3,7 +3,7 @@
 </h1>
 
 ## Problem
-By playing CSGO and now CS2, I got used to changing my handedness mid round in order to better hold angles. In CS2 there's a keybind for this, however in Valorant the only way to change handedness is by manually going through the settings everytime you want to do it. I wanted to automate this process to be as fast as I could, while also not breaking the TOS and without getting banned. [Demo](https://github.com/mortinso/valorant_handedness/#final-thoughts)
+While playing CSGO and now CS2, I got used to changing my handedness mid round in order to better hold angles. In CS2 there's a keybind for this, however in Valorant the only way to change handedness is by manually going through the settings everytime you want to do it. I wanted to automate this process to be as fast as I could, while also not breaking the TOS and without getting banned. [Demo](https://github.com/mortinso/valorant_handedness/#final-thoughts)
 
 ## Limitations by Riot
 - Riot Vanguard (Riots anti-cheat) would likely be able to detect a DLL injection
@@ -43,7 +43,7 @@ Since it's such a basic script, it has a lot of limitations.
 - It assumes the display is 1920x1080: Maybe a map of display sizes and their respective coordinates could be used to hard code more resolutions into the script.
 
 ## Final Thoughts
-That's it! It takes about 0.5s to change the setting, which is not great, but not terrible given the limitations and definitely better than doing it by hand. The runtime does however affect how often it is actually useful though, as in certain situations someone could peak you while the setting is being changed.
+That's it! It takes about 0.5s to change the setting, which is not great, but not terrible given the limitations and definitely better than doing it by hand. The runtime does however affect how often it is actually useful though, as in certain situations someone could peek you while the setting is being changed.
 
 https://github.com/user-attachments/assets/01637583-2874-4418-ae44-9c5e3a2b6a7e
 > [!NOTE]
